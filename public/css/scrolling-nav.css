@@ -131,6 +131,19 @@ of those sections to manage the look and feel of the site. */
     background: url("/images/assignment_bg.jpg")
 }
 
+.contact-section {
+    padding-top: 30px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 200px;
+}
+
 .project-heading {
     font-size: 50px;
     color: #979797;
@@ -178,6 +191,16 @@ a.project-link:hover {
 a.assignment-link:hover{
     text-decoration: none;
     color: #43c2da;
+}
+
+.contact-heading {
+    font-size: 50px;
+    color: #457ec4;
+}
+
+.contact-subheading {
+    font-size: 40px;
+    color: #8dc473;
 }
 
 .github-section {
