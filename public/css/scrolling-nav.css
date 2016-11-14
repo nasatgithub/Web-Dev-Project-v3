@@ -132,15 +132,10 @@ of those sections to manage the look and feel of the site. */
 }
 
 .contact-section {
-    padding-top: 30px;
+    background-color: #ededed;
+    padding-top: 50px;
+    padding-bottom: 20px;
     text-align: center;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     min-height: 200px;
 }
 
@@ -199,7 +194,7 @@ a.assignment-link:hover{
 }
 
 .contact-subheading {
-    font-size: 40px;
+    font-size: 20px;
     color: #8dc473;
 }
 
