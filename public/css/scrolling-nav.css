@@ -7,6 +7,9 @@
 body {
     width: 100%;
     height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+
+
 }
 
 html {
@@ -14,20 +17,18 @@ html {
     height: 100%;
 }
 
+
 .navbar {
-    background: rgba(245,239,223,1);
-    background: -moz-linear-gradient(top, rgba(245,239,223,1) 0%, rgba(252,205,77,1) 47%, rgba(248,181,0,1) 53%, rgba(171,173,159,1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(245,239,223,1)), color-stop(47%, rgba(252,205,77,1)), color-stop(53%, rgba(248,181,0,1)), color-stop(100%, rgba(171,173,159,1)));
-    background: -webkit-linear-gradient(top, rgba(245,239,223,1) 0%, rgba(252,205,77,1) 47%, rgba(248,181,0,1) 53%, rgba(171,173,159,1) 100%);
-    background: -o-linear-gradient(top, rgba(245,239,223,1) 0%, rgba(252,205,77,1) 47%, rgba(248,181,0,1) 53%, rgba(171,173,159,1) 100%);
-    background: -ms-linear-gradient(top, rgba(245,239,223,1) 0%, rgba(252,205,77,1) 47%, rgba(248,181,0,1) 53%, rgba(171,173,159,1) 100%);
-    background: linear-gradient(to bottom, rgba(245,239,223,1) 0%, rgba(252,205,77,1) 47%, rgba(248,181,0,1) 53%, rgba(171,173,159,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5efdf', endColorstr='#abad9f', GradientType=0 );
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
 }
 
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
+        padding: 5px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -44,27 +45,45 @@ html {
 }
 
 .intro-section {
-    min-height: 400px;
+    min-height: 600px;
 }
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
 
 .intro-section {
-    height: 95%;
-    padding-top: 100px;
+/*    padding-top: 100px;
     text-align: center;
-    background-size: 100%;
+    background-size: cover;
+    background-position:center center ;
 
-    background: url("/images/wood_grayscale.jpg")  center center;
+    background: url("/images/blue-sky.jpg")  center center; */
+   padding-top: 100px;
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(/images/blue-sky.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 
 }
 
-.intro-section .intro-text {
-    color: rgb(232, 232, 232);
-    font-size: 35px;
-    text-shadow: rgb(220, 220, 220) 0px 0px 10px;
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
 
+.intro-section .intro-text{
+    text-shadow: rgb(253, 253, 253) 0px 0px 10px;
+
+}
+
+.type-caps {
+    font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 .about-section {
@@ -80,6 +99,15 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     min-height: 800px;
     background: url("/images/traffic.jpg")
+}
+
+.resume-section {
+    background-color: #ededed;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    min-height: 200px;
+
 }
 
 .fill-section {
@@ -179,8 +207,8 @@ a.assignment-link:hover{
 }
 
 .img-round{
-    border-radius: 5%;
-    height: 200px;
+
+    height: 150px;
 }
 
 
@@ -191,7 +219,7 @@ a.assignment-link:hover{
 
 .navbar-default .navbar-nav>li>a {
     font-size: 15px;
-    color: #555454;
+    color: #302f2f;
     font-weight: 800;
 }
 
@@ -201,7 +229,25 @@ a.assignment-link:hover{
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover
 {
-    color: #555454;
+    color: #232222;
     background-color: transparent;
-    text-shadow: 5px 5px 15px #bb2015;
+    text-shadow: 3px 3px 15px #7adce3;
+}
+
+.intro-section .glyphicon.glyphicon-chevron-down{
+    font-size: 30px;
+    color: #153241;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.intro-section .glyphicon.glyphicon-chevron-down:hover{
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    font-size: 50px;
+    color: #1c80a3;
 }

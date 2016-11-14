@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:color="http://www.w3.org/1999/xhtml">
 
 <head>
 
@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Web Dev Project</title>
+    <title>Nasir's Portfolio</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
@@ -24,6 +24,11 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <script src="https://use.fontawesome.com/575f630e55.js"></script>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:900|Exo:900|Black+Ops+One|Titillium+Web:700" rel="stylesheet">
 </head>
 
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
@@ -36,11 +41,11 @@
         <div class="navbar-header page-scroll">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                 <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
+                <span class="icon-bar" style="background-color: black"></span>
+                <span class="icon-bar" style="background-color: #2c2c2c"></span>
+                <span class="icon-bar" style="background-color: #696969"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top">Web Dev</a>
+            <a class="navbar-brand page-scroll" href="#page-top">Website</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -54,14 +59,21 @@
                     <a class="page-scroll" href="#intro">About Me</a>
                 </li>
                 <li>
+                    <a class="page-scroll" href="#resume">Resume</a>
+                </li>
+                <li>
                     <a class="page-scroll" href="#project">Project</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#assignment">Assignment</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#github">Github / Demo Video Link</a>
+                    <a class="page-scroll" href="https://github.com/nasatgithub/"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
                 </li>
+                <li>
+                    <a class="page-scroll" href="https://www.linkedin.com/in/nasirahmedraffick">  <i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a>
+                </li>
+
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -73,21 +85,49 @@
 <section id="intro" class="section intro-section">
     <div class="container-fluid" style="margin-top: 40px">
         <div class="row" >
-            <div class="col-lg-12">
+            <div class="col-md-12">
                 <header class="image-bg-fluid-height">
                     <img class="img-responsive img-center img-round" src="images/nasirprofile.jpg" alt="">
                 </header>
             </div>
-            <div class="col-lg-12" style="margin-top: 20px">
-                <div class="intro-text" style="color: rgba(255, 251, 251, 0.69)">Nasir Ahmed Raffick</div>
-            </div>
-            <div class="col-lg-12">
-                 <div class="intro-text" style="color: rgba(255, 169, 15, 0.69)">MS Computer Science, Northeastern University</div>
-            </div>
-            <div class="col-lg-12">
-                <div class="intro-text" style="color: rgba(154, 255, 147, 0.69)">Looking For Full-Time Software Engineer Position Starting Jan 2017</div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-vertical-center">
+                <div class="intro-text type-caps" style="font-size: 50px; color: rgba(36, 36, 36, 0.97)">NASIR AHMED RAFFICK</div>
+                <div class="intro-text type-caps" style="font-size: 30px;  color: #464646">MS Computer Science, Northeastern University</div>
+                <br>
+                <div class="intro-text" style="font-size: 23px; color: #686868">Looking For Full-Time Software Engineer Position Starting Jan 2017</div>
+                <br><br><br>
+                <div class="intro-text" style="font-size: 15px; color: #1e353d">MORE ABOUT ME?</div>
+                <a class="more page-scroll" href="#project">
+                    <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+                </a>
             </div>
         </div>
+    </div>
+</section>
+
+<!--<header id="top" class="section intro-section">
+    <div class="text-vertical-center">
+        <h1>Start Bootstrap</h1>
+        <h3>Free Bootstrap Themes &amp; Templates</h3>
+        <br>
+        <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+    </div>
+</header>-->
+
+<section id="resume" class="section img-responsive resume-section">
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-lg-12 project-heading"> RESUME </div>
+        </div>
+
+        <object data="./media/resume.pdf" width="800" height="600">
+            <p>Your web browser doesn't have a PDF plugin.
+                Instead you can <a href="./media/resume.pdf">click here to
+                    download the PDF file.</a></p>
+        </object>
     </div>
 </section>
 
@@ -123,7 +163,6 @@
     </div>
 </section>
 
-<section id="fill1" class="fill-section"></section>
 
 
 <!-- Contact Section -->
