@@ -226,7 +226,7 @@ a.assignment-link:hover{
 
 .img-round{
 
-    height: 150px;
+    height: 400px;
 }
 
 
@@ -253,7 +253,7 @@ a.assignment-link:hover{
 }
 
 .intro-section .glyphicon.glyphicon-chevron-down{
-    font-size: 30px;
+    font-size: 50px;
     color: #153241;
 }
 
@@ -266,6 +266,6 @@ a:hover{
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    font-size: 50px;
-    color: #1c80a3;
+    font-size: 70px;
+    color: #370708;
 }
