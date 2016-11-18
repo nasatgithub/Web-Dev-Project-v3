@@ -58,7 +58,7 @@ of those sections to manage the look and feel of the site. */
     background-position:center center ;
 
     background: url("/images/blue-sky.jpg")  center center; */
-   padding-top: 100px;
+   padding-top: 70px;
     display: table;
     position: relative;
     width: 100%;
@@ -253,7 +253,7 @@ a.assignment-link:hover{
 }
 
 .intro-section .glyphicon.glyphicon-chevron-down{
-    font-size: 50px;
+    font-size: 40px;
     color: #153241;
 }
 
@@ -266,6 +266,6 @@ a:hover{
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    font-size: 70px;
+    font-size: 50px;
     color: #370708;
 }
