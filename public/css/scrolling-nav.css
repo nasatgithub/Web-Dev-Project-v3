@@ -132,7 +132,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 .contact-section {
-    background-color: #ededed;
+    background-color: #fcfcfc;
     padding-top: 50px;
     padding-bottom: 20px;
     text-align: center;
@@ -190,12 +190,12 @@ a.assignment-link:hover{
 
 .contact-heading {
     font-size: 50px;
-    color: #457ec4;
+    color: #2f4a79;
 }
 
 .contact-subheading {
     font-size: 20px;
-    color: #8dc473;
+    color: #62884d;
 }
 
 .github-section {
@@ -268,4 +268,10 @@ a:hover{
     transition: all 0.2s ease-in-out;
     font-size: 50px;
     color: #370708;
+}
+
+hr {
+    border-color: #32150e;
+    border-width: 3px;
+    max-width: 50px;
 }
